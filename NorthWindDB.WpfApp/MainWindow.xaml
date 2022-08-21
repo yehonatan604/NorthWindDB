@@ -21,13 +21,7 @@
             <TextBlock Text="HomeWork 18/08/22" Style="{StaticResource Tblock}" />
         </WrapPanel>
         <WrapPanel Name="Buttons" Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Grid.RowSpan="2">
-            <Button Name="Btn1" Content="Exercise 1" Margin="10" Click="Btn1_Click" Style="{StaticResource BtnStyle}" >
-                <Button.Resources >
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="5"/>
-                    </Style>
-                </Button.Resources>
-            </Button>
+            <Button Name="Btn1" Content="Exercise 1" Margin="10" Click="Btn1_Click" Style="{StaticResource BtnStyle}" />
             <Button Name="Btn2" Content="Exercise 2" Margin="10" Click="Btn2_Click" Style="{StaticResource BtnStyle}" />
             <Button Name="Btn3" Content="Exercise 3" Margin="10" Click="Btn3_Click" Style="{StaticResource BtnStyle}" />
             <Button Name="Btn4" Content="Exercise 4" Margin="10" Click="Btn4_Click" Style="{StaticResource BtnStyle}" />
